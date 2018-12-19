@@ -4,3 +4,39 @@
     width: intrinsic;
     width: min-content
 }
+
+body{
+  display: inline;
+  margin: 0;
+}
+
+.code {
+    white-space: pre;
+    background-color: #2d2b2d;
+    width: 100%;
+    width: -moz-min-content;
+    width: intrinsic;
+    width: min-content;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #3a383a
+}
+
+.text-view>.text-view-inner {
+  font-family: IBM Plex Mono, monospace;
+}
+
+.text-view>.text-view-inner {
+  font-family: Open Sans, sans-serif;
+}
+
+.text-view {
+  background: #000;
+  color: #fff;
+}
+
+.text-view-inner a {
+  color: #a9a9a9;
+  text-decoration: none;
+}
