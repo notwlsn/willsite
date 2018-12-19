@@ -78,3 +78,17 @@ p {
 .wc-home-title.smaller-subtitle {
   font-size: 14px;
 }
+
+.text-view-inner ul {
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+.text-view-inner ul>li.flagged {
+  color: #ccc;
+}
+
+.wc-home-title.hint {
+  font-size: 10px;
+}
