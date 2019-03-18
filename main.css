@@ -2,10 +2,10 @@
     width: 250px;
     width: -moz-min-content;
     width: intrinsic;
-    width: min-content;
+    width: min-content
 }
 
-body {
+body{
   display: inline;
   margin: 0;
 }
@@ -20,10 +20,10 @@ body {
     margin: 20px auto;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #3a383a;
+    border: 1px solid #3a383a
 }
 
-.text-view > .text-view-inner {
+.text-view>.text-view-inner {
   font-family: IBM Plex Mono,monospace;
 }
 
@@ -88,10 +88,10 @@ p {
   list-style-type: none;
 }
 
-.text-view-inner ul > li.flagged {
+.text-view-inner ul>li.flagged {
   color: #ccc;
 }
 
 .wc-home-title.hint {
-  font-size: 9px;
+  font-size: 10px;
 }
