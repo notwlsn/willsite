@@ -115,3 +115,17 @@ p {
   background-color: #555;
   color: white;
 }
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+}
+
+.book-link {
+  color: #adff2f
+}
