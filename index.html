@@ -4,57 +4,84 @@
 <head>
   <link rel="stylesheet" type="text/css" href="main.css">
   <script href="site.js"></script>
-  <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/web-application-icons-part-i/100/Artboard_18-512.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>wlsn</title>
+  <link rel="favicon" href="favicon.ico" type="image/x-icon"/>
+  <title>notwlsn</title>
 </head>
 
 <body>
   <div class="root-container">
-    <div class="text-view" id="text-view">
-      <div class="text-view-inner no-linecount" name="text-view" id="tv-home" style="display: grid;">
-        <div class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-list-item"><a href="">Home.md</a></li>
-            <li class="navbar-list-item"><a href="">About.md</a></li>
-            <li class="navbar-list-item"><a href="">News.md</a></li>
-            <li class="navbar-list-item"><a href="">Contact.md</a></li>
-          </ul>
-        </div>
-        <div class="text-view-text tv-home">
-          <p class="wc-home-title">Hi. I'm Willson Camp.</p>
-          <hr>
-          <pre class="code social-media">
+      <div class="text-view" id="text-view">
+        <div class="text-view-inner no-linecount" name="text-view" id="tv-home" style="display: grid;">
+          <div class="text-view-text tv-home">
+            <p class="wc-home-title">Hi. I'm Willson Camp.</p>
+            <hr>
+            <pre class="code social-media">
 {
-    "twitter": "<a href="https://twitter.com/notwlsn">@notwlsn</a>,
-    "github": "<a href="https://github.com/notwlsn">@notwlsn</a>"
+    "github": "<a href="https://github.com/notwlsn">@notwlsn</a>",
+    "linkedin": "<a href="https://www.linkedin.com/in/willson-camp-549454181/">willson camp</a>"
 }         </pre>
-          <hr>
+            <hr>
+            <div class="column">
+            <p class="wc-home-title smaller-subtitle">About</p>
+            <pre class="code social-media">
+This is the homepage of Willson Camp. I am an Information Security Engineer
+who specializes in reverse engineering, malware analysis, and vulnerability research.
+I also have experience in the fields of penetration testing, web application security,
+incident response, security infrastructure establishment, and internal awareness
+phishing campaigns.</pre>
+            <p class="wc-home-title smaller-subtitle">Reading</p>
+            <pre class="code social-media">
+The only thing I like more than being at a computer is reading about one. My favorite
+books are listed here:
+
+"The Art of Memory Forensics: Detecting Malware and Threats in Windows, Linux, and Mac Memory" <a class="book-link" href="https://www.amazon.com/Art-Memory-Forensics-Detecting-Malware/dp/1118825098">[1]</a>
+"Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Tools, and Obfuscation" <a class="book-link" href="https://www.amazon.com/Practical-Reverse-Engineering-Reversing-Obfuscation/dp/1118787315">[2]</a>
+"Windows Internals, Part 1 (Mark Russinovich)" <a class="book-link" href="https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189/ref=pd_sbs_14_t_1/146-5645421-6075957?_encoding=UTF8&pd_rd_i=0735684189&pd_rd_r=1c8999eb-5fc4-4735-92fb-bb58bfac06a7&pd_rd_w=SGaCG&pd_rd_wg=lSZNe&pf_rd_p=5cfcfe89-300f-47d2-b1ad-a4e27203a02a&pf_rd_r=CESP0F81JSQP8AXPC4PA&psc=1&refRID=CESP0F81JSQP8AXPC4PA">[3]</a>
+"Unix in a Nutshell, Fourth Edition (O'Reilly)" <a class="book-link" href="https://www.amazon.com/Unix-Nutshell-Fourth-Arnold-Robbins/dp/0596100299/ref=sr_1_2?keywords=unix+in+a+nutshell&qid=1582601381&s=books&sr=1-2">[4]</a>
+"The Hacker Playbook: Practical Guide to Penetration Testing" <a class="book-link" href="https://www.amazon.com/Hacker-Playbook-Practical-Penetration-Testing/dp/1494932636">[5]</a>
+</pre>
+            <p class="wc-home-title smaller-subtitle">Career</p>
+            <pre class="code social-media">
+I haven't been in industry long, but I'm already restless with its state. It's my
+personal opinion that security is not taken nearly seriously enough, or if it
+is, it's treated as a chore. I believe our systems are far gone. So far, my
+action has been to raise awareness in my immediate surroundings and show my
+co-workers why they need to do things they consider 'inconvenient'.</pre>
+            <p class="wc-home-title smaller-subtitle">Contact</p>
+            <pre class="code social-media">
+IRC: @m0rph
+PGP key can be found <a class="book-link" href="publickey.gwillson.camp.asc">here.</a>
+Email: gwillson.camp@protonmail.ch
+MatterMost:<a href="https://mm.netsecfocus.com/nsf/channels/general"> @m0rph</a></pre>
+        </div>
+        <div class="column2">
           <p class="wc-home-title smaller-subtitle">Languages I Know</p>
           <ul>
             <li>Python</li>
+            <li>C++</li>
+            <li>x86 assembly</li>
             <li>PHP</li>
             <li>SQL</li>
             <li>JavaScript</li>
             <li>HTML/CSS</li>
-            <li class="flagged">Objective-C/C/C++ *</li>
+            <li class="flagged">Objective-C/C *</li>
             <li class="flagged">Swift 4 *</li>
-            <li class="flagged">Java *</li>
           </ul>
           <p class="wc-home-title hint">* I'm still learning this language</p>
           <br>
           <p class="wc-home-title smaller-subtitle">Projects I've Worked On</p>
           <ul>
             <li><a href="https://github.com/notwlsn/twitify">twitify</a></li>
-            <li><a href="https://github.com/notwlsn/xlsx_concat">xlsx_concat</a></li>
-            <li><a href="https://github.com/notwlsn/copy_file">dir_copy</a></li>
-            <li><a href="https://github.com/notwlsn/py-game1">.py image loading/analysis (name pending) *</a></li>
+            <li><a href="https://github.com/notwlsn/winuprecon">WinUPRecon</a></li>
+            <li><a href="https://github.com/notwlsn/gophish-temp">unnamed phishing campaign landing page</a></li>
           </ul>
           <p class="wc-home-title hint">* On hold for the academic year</p>
           <br>
+        </div>
       </div>
-    </div>
   </div>
+</div>
 </div>
 </body>
 
