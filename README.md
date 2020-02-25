@@ -1,2 +1,2 @@
 # willsite
-my personal website
+my website
