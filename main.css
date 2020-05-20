@@ -9,7 +9,7 @@
 }
 
 .code.content {
-  min-width: 550px;
+  min-width: 600px;
   overflow-x: auto;
     width: min-content;
 }
@@ -113,6 +113,7 @@ p {
   font-size: 9px;
 }
 
+/*
 .column {
   float: left;
   width: 50%;
@@ -122,6 +123,7 @@ p {
   float: right;
   width: 50%;
 }
+*/
 
 .footer {
   font-size: 10px;
