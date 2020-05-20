@@ -1,19 +1,16 @@
 .code.social-media {
-    width: -moz-min-content;
-    width: intrinsic;
     width: min-content;
     overflow-x: auto;
 }
 
+.code.social-media-top {
+  width: min-content;
+  white-space: pre;
+}
+
 .code.content {
   min-width: 550px;
-  width: -moz-min-content;
-  width: intrinsic;
-  width: min-content;
   overflow-x: auto;
-    width: 250px;
-    width: -moz-min-content;
-    width: intrinsic;
     width: min-content;
 }
 
@@ -24,12 +21,8 @@ body {
 }
 
 .code {
-    white-space: pre;
+    white-space: pre-wrap;
     background-color: #2d2b2d;
-    width: 100%;
-    width: -moz-min-content;
-    width: intrinsic;
-    width: min-content;
     margin: 20px auto;
     padding: 10px;
     border-radius: 5px;
@@ -112,40 +105,8 @@ p {
   color: #adff2f;
 }
 
-<<<<<<< HEAD
-.code.social-media {
-    width: 250px;
-    width: -moz-min-content;
-    width: intrinsic;
-    width: min-content;
-}
-
-body {
-  display: inline;
-  margin: 0;
-  background-color: #000;
-}
-
-.wc-home-title {
-  font-size: 36px;
-  text-align: center;
-  color: #adff2f;
-  margin-top: 0px;
-  margin-right: 5px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-}
-
 .wc-home-title.footer {
   font-size: 10px
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .wc-home-title.hint {
