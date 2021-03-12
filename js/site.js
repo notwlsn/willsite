@@ -1,8 +1,8 @@
 
-function copy() {
-  var copyText = document.querySelector("#input");
-  copyText.select();
+function Copy() {
+  var Url = document.getElementById("url");
+  Url.innerHTML = window.location.href;
+  console.log(Url.innerHTML)
+  Url.select();
   document.execCommand("copy");
 }
-
-document.querySelector("#copy").addEventListener("click", copy);
